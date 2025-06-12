@@ -92,19 +92,19 @@ void loop() {
 
 2. El siguiente pasó será instalar la libreria de DHT sensor library for ESPx como se muestra en la siguente imagen:
 
-
+![](https://github.com/DaybeatAV/Practica2_DHT11-CON-LCD/blob/main/Pr%C3%A1ctica%202%20Librer%C3%ADa%20DHT%20Sensor.png)
 
 3. A continuación instalaremos la libreria de LiquidCrystal I2C como se ve en la siguiente imagen:
 
-
+![](https://github.com/DaybeatAV/Practica2_DHT11-CON-LCD/blob/main/Pr%C3%A1ctica%202%20Librer%C3%ADa%20LyquidCrystal%20I2C.png)
 
 4. Procederemos a realizar la conexion del sensor ```DHT11``` con la tarjeta ```ESP32``` igual que la imagen que se ve adelante:
 
-
+![](https://github.com/DaybeatAV/Practica2_DHT11-CON-LCD/blob/main/Pr%C3%A1ctica%202%20Conexi%C3%B3n%20DHT%20Sensor.png)
 
 5. Después crearemos la conexion de la pantalla ```LCD``` con la tarjeta ```ESP32```, debajo se obeserva el resultado:
 
-
+![](https://github.com/DaybeatAV/Practica2_DHT11-CON-LCD/blob/main/Pr%C3%A1ctica%202%20Conexi%C3%B3n%20LCD%20(I2C).png)
 
 ### Instrucciónes de operación
 
@@ -118,11 +118,11 @@ void loop() {
 
 El resultado final cuando la simulación haya funcionado se verán los valores dentro del LCD 16x2 como se muestra en la siguente imagen:
 
-
+![](https://github.com/DaybeatAV/Practica2_DHT11-CON-LCD/blob/main/Pr%C3%A1ctica%202%20Resultado%20Final.png)
 
 ### Evidencias
 
-
+https://github.com/user-attachments/assets/3726c39d-967c-4133-ab4f-f718fabdd30e
 
 # Créditos
 
