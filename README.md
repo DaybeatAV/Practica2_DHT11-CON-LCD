@@ -60,29 +60,29 @@ void loop() {
   Serial.println("Humidity: " + String(data.humidity, 1) + "%");
   Serial.println("---");
 
-  lcd.setCursor(0, 0);
-  lcd.print("   DIPLOMADO");
-  lcd.setCursor(0, 1); 
-  lcd.print(" AUTOMATIZACION");
+  lcd.setCursor(4, 0);
+  lcd.print("DIPLOMADO");
+  lcd.setCursor(2, 1); 
+  lcd.print("AUTOMATIZACION");
    delay(2000);
   lcd.clear();
 
-   lcd.setCursor(0, 0);
-  lcd.print(" JOSE DAVID A.V");
-  lcd.setCursor(0, 1); 
-  lcd.print("   MECANICO");
+   lcd.setCursor(1, 0);
+  lcd.print("JOSE DAVID A.V");
+  lcd.setCursor(4, 1); 
+  lcd.print("MECANICO");
    delay(2000);
   lcd.clear();
-   lcd.setCursor(0, 0);
-  lcd.print("   07-06-2025");
+   lcd.setCursor(3, 0);
+  lcd.print("07-06-2025");
   delay(2000);
   lcd.clear();
   
   
-  lcd.setCursor(0, 0);
-  lcd.print("  Temp: " + String(data.temperature, 1) + "\xDF"+"C  ");
-  lcd.setCursor(0, 1); 
-  lcd.print(" Humidity: " + String(data.humidity, 1) + "% ");
+  lcd.setCursor(2, 0);
+  lcd.print("Temp: " + String(data.temperature, 1) + "\xDF"+"C  ");
+  lcd.setCursor(2, 1); 
+  lcd.print("Humidity: " + String(data.humidity, 1) + "% ");
  
 
   delay(2000);
