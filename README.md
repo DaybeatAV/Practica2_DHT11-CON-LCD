@@ -68,9 +68,9 @@ void loop() {
   lcd.clear();
 
    lcd.setCursor(0, 0);
-  lcd.print(" JAQUELINE R.H");
+  lcd.print(" JOSE DAVID A.V");
   lcd.setCursor(0, 1); 
-  lcd.print("   INDUSTRIAL");
+  lcd.print("   MECANICO");
    delay(2000);
   lcd.clear();
    lcd.setCursor(0, 0);
